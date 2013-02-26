@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		876C0EBA16DC86F8005189D4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876C0EB916DC86F8005189D4 /* Cocoa.framework */; };
+		876C0EC416DC86F8005189D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 876C0EC216DC86F8005189D4 /* InfoPlist.strings */; };
+		876C0EC616DC86F8005189D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 876C0EC516DC86F8005189D4 /* main.m */; };
+		876C0ECA16DC86F8005189D4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 876C0EC816DC86F8005189D4 /* Credits.rtf */; };
+		876C0ECD16DC86F8005189D4 /* PurgeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 876C0ECC16DC86F8005189D4 /* PurgeAppDelegate.m */; };
+		876C0ED016DC86F8005189D4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 876C0ECE16DC86F8005189D4 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		876C0EB616DC86F8005189D4 /* Purge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Purge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		876C0EB916DC86F8005189D4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		876C0EBC16DC86F8005189D4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		876C0EBD16DC86F8005189D4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		876C0EBE16DC86F8005189D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		876C0EC116DC86F8005189D4 /* Purge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Purge-Info.plist"; sourceTree = "<group>"; };
+		876C0EC316DC86F8005189D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		876C0EC516DC86F8005189D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		876C0EC716DC86F8005189D4 /* Purge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Purge-Prefix.pch"; sourceTree = "<group>"; };
+		876C0EC916DC86F8005189D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		876C0ECB16DC86F8005189D4 /* PurgeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PurgeAppDelegate.h; sourceTree = "<group>"; };
+		876C0ECC16DC86F8005189D4 /* PurgeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PurgeAppDelegate.m; sourceTree = "<group>"; };
+		876C0ECF16DC86F8005189D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		876C0EB316DC86F8005189D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876C0EBA16DC86F8005189D4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		876C0EAD16DC86F8005189D4 = {
+			isa = PBXGroup;
+			children = (
+				876C0EBF16DC86F8005189D4 /* Purge */,
+				876C0EB816DC86F8005189D4 /* Frameworks */,
+				876C0EB716DC86F8005189D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		876C0EB716DC86F8005189D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				876C0EB616DC86F8005189D4 /* Purge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		876C0EB816DC86F8005189D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				876C0EB916DC86F8005189D4 /* Cocoa.framework */,
+				876C0EBB16DC86F8005189D4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		876C0EBB16DC86F8005189D4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				876C0EBC16DC86F8005189D4 /* AppKit.framework */,
+				876C0EBD16DC86F8005189D4 /* CoreData.framework */,
+				876C0EBE16DC86F8005189D4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		876C0EBF16DC86F8005189D4 /* Purge */ = {
+			isa = PBXGroup;
+			children = (
+				876C0ECB16DC86F8005189D4 /* PurgeAppDelegate.h */,
+				876C0ECC16DC86F8005189D4 /* PurgeAppDelegate.m */,
+				876C0ECE16DC86F8005189D4 /* MainMenu.xib */,
+				876C0EC016DC86F8005189D4 /* Supporting Files */,
+			);
+			path = Purge;
+			sourceTree = "<group>";
+		};
+		876C0EC016DC86F8005189D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				876C0EC116DC86F8005189D4 /* Purge-Info.plist */,
+				876C0EC216DC86F8005189D4 /* InfoPlist.strings */,
+				876C0EC516DC86F8005189D4 /* main.m */,
+				876C0EC716DC86F8005189D4 /* Purge-Prefix.pch */,
+				876C0EC816DC86F8005189D4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		876C0EB516DC86F8005189D4 /* Purge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 876C0ED316DC86F8005189D4 /* Build configuration list for PBXNativeTarget "Purge" */;
+			buildPhases = (
+				876C0EB216DC86F8005189D4 /* Sources */,
+				876C0EB316DC86F8005189D4 /* Frameworks */,
+				876C0EB416DC86F8005189D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Purge;
+			productName = Purge;
+			productReference = 876C0EB616DC86F8005189D4 /* Purge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		876C0EAE16DC86F8005189D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Purge;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Ngoc Trung Nguyen";
+			};
+			buildConfigurationList = 876C0EB116DC86F8005189D4 /* Build configuration list for PBXProject "Purge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 876C0EAD16DC86F8005189D4;
+			productRefGroup = 876C0EB716DC86F8005189D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				876C0EB516DC86F8005189D4 /* Purge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		876C0EB416DC86F8005189D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876C0EC416DC86F8005189D4 /* InfoPlist.strings in Resources */,
+				876C0ECA16DC86F8005189D4 /* Credits.rtf in Resources */,
+				876C0ED016DC86F8005189D4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		876C0EB216DC86F8005189D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876C0EC616DC86F8005189D4 /* main.m in Sources */,
+				876C0ECD16DC86F8005189D4 /* PurgeAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		876C0EC216DC86F8005189D4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				876C0EC316DC86F8005189D4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		876C0EC816DC86F8005189D4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				876C0EC916DC86F8005189D4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		876C0ECE16DC86F8005189D4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				876C0ECF16DC86F8005189D4 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		876C0ED116DC86F8005189D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		876C0ED216DC86F8005189D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		876C0ED416DC86F8005189D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Purge/Purge-Prefix.pch";
+				INFOPLIST_FILE = "Purge/Purge-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		876C0ED516DC86F8005189D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Purge/Purge-Prefix.pch";
+				INFOPLIST_FILE = "Purge/Purge-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		876C0EB116DC86F8005189D4 /* Build configuration list for PBXProject "Purge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876C0ED116DC86F8005189D4 /* Debug */,
+				876C0ED216DC86F8005189D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		876C0ED316DC86F8005189D4 /* Build configuration list for PBXNativeTarget "Purge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876C0ED416DC86F8005189D4 /* Debug */,
+				876C0ED516DC86F8005189D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 876C0EAE16DC86F8005189D4 /* Project object */;
+}
