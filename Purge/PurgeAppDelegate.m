@@ -99,7 +99,7 @@ NSLock *CPUUsageLock;
             final_total += total;
         }
         
-        self.topTextView.string = [NSString stringWithFormat:@"C: %.0f%%", (1 - final_inuse/final_total) * 100];
+        self.topTextView.string = [NSString stringWithFormat:@"CPU: %.0f%%", (1 - final_inuse/final_total) * 100];
         [self.topTextView alignRight:nil];
         
         [CPUUsageLock unlock];
@@ -155,7 +155,7 @@ NSLock *CPUUsageLock;
     int gb = 1024*1024*1024;
     
 //    self.topTextView.string = [NSString stringWithFormat:@"F:%.2f", (double)vmstat.free_count * pagesize/gb];
-    self.bottomTextView.string = [NSString stringWithFormat:@"F: %.2f", (double)vmstat.free_count * pagesize/gb];
+    self.bottomTextView.string = [NSString stringWithFormat:@"F: %.2fGB", (double)vmstat.free_count * pagesize/gb];
     [self.bottomTextView alignRight:nil];
 }
 
@@ -198,7 +198,7 @@ NSLock *CPUUsageLock;
 
 - (NSView *)getView {
     CGFloat height = [NSStatusBar systemStatusBar].thickness;
-    CGFloat width = 45;
+    CGFloat width = 60;
     self.statusMenuBackgroundView = [[NSView alloc] initWithFrame:NSRectFromCGRect(CGRectMake(0, 0, width, height))];
     self.blueLayer = [CALayer layer];
     [self.blueLayer setBackgroundColor:CGColorCreateGenericRGB(0.0, 0.0, 0.0, 0.0)];
