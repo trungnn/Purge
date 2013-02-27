@@ -13,4 +13,7 @@
 @property (nonatomic, strong) NSStatusItem *statusItem;
 @property (weak) IBOutlet NSMenu *statusMenu;
 @property (nonatomic, strong) NSMutableArray *memoryHistoryArray;
+@property (nonatomic, strong) NSTextView *topTextView;
+@property (nonatomic, strong) NSTextView *bottomTextView;
+@property (nonatomic, strong) NSView *statusMenuBackgroundView;
 @end

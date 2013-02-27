@@ -13,6 +13,8 @@
 		876C0ECA16DC86F8005189D4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 876C0EC816DC86F8005189D4 /* Credits.rtf */; };
 		876C0ECD16DC86F8005189D4 /* PurgeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 876C0ECC16DC86F8005189D4 /* PurgeAppDelegate.m */; };
 		876C0ED016DC86F8005189D4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 876C0ECE16DC86F8005189D4 /* MainMenu.xib */; };
+		876C0EDC16DDE7F8005189D4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876C0EDB16DDE7F8005189D4 /* QuartzCore.framework */; };
+		876C0EDD16DDEB88005189D4 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876C0EBC16DC86F8005189D4 /* AppKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,7 @@
 		876C0ECB16DC86F8005189D4 /* PurgeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PurgeAppDelegate.h; sourceTree = "<group>"; };
 		876C0ECC16DC86F8005189D4 /* PurgeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PurgeAppDelegate.m; sourceTree = "<group>"; };
 		876C0ECF16DC86F8005189D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		876C0EDB16DDE7F8005189D4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +39,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				876C0EDD16DDEB88005189D4 /* AppKit.framework in Frameworks */,
+				876C0EDC16DDE7F8005189D4 /* QuartzCore.framework in Frameworks */,
 				876C0EBA16DC86F8005189D4 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +68,7 @@
 		876C0EB816DC86F8005189D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				876C0EDB16DDE7F8005189D4 /* QuartzCore.framework */,
 				876C0EB916DC86F8005189D4 /* Cocoa.framework */,
 				876C0EBB16DC86F8005189D4 /* Other Frameworks */,
 			);
@@ -306,6 +312,7 @@
 				876C0ED516DC86F8005189D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
